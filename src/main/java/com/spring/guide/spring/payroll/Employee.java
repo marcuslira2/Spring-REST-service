@@ -13,6 +13,8 @@ public class Employee {
   private String name;
   private String role;
 
+  
+
   public Employee() {
 
   }
@@ -36,6 +38,13 @@ public class Employee {
 
   public void setRole(String role) {
     this.role = role;
+  }
+  public Long getId() {
+    return id;
+  }
+
+  public void setId(Long id) {
+    this.id = id;
   }
 
   @Override
